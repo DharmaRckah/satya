@@ -1,0 +1,6 @@
+# render.yaml
+services:
+  - type: web
+    name: my-react-app
+    buildCommand: npm install && npm run build
+    startCommand: npm start
